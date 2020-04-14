@@ -1,0 +1,146 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(57, 84, 109);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  opacity: 0.7;
+}
+.header_logo {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: italic;
+}
+#theme-select {
+  width: 200px;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(12, 119, 123);
+}
+.form {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.form_title {
+  font-size: 23px;
+  color: rgb(48, 47, 47);
+  font-weight: 400;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid silver;
+  outline: none;
+}
+.form_body input:focus {
+  background-color: silver;
+  color: white;
+  transition: 0.5s all;
+}
+
+.form_btn {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(32, 35, 232);
+  outline: none;
+}
+
+.form_btn:hover {
+  background-color: rgb(107, 109, 201);
+  transition: 0.5s all;
+}
+
+.task {
+  border: 1px solid rgb(116, 114, 114);
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  border-radius: 5px;
+}
+
+.task_title {
+  font-size: 20px;
+  font-weight: 500;
+  flex-basis: 100%;
+}
+.task_body {
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  flex-basis: 100%;
+}
+.task_btn {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  outline: none;
+}
+.task_btn:hover {
+  background-color: rgb(232, 89, 89);
+  transition: 0.5s all;
+}
+
+.up {
+  font-size: 15px;
+  border-radius: 100%;
+  background-color: magenta;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  z-index: 900;
+  top: 85%;
+  left: 93%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.up:hover {
+  font-size: 18px;
+  background-color: red;
+  transition: 0.8s;
+}
