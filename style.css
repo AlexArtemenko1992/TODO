@@ -36,7 +36,7 @@ li {
   font-style: italic;
 }
 #theme-select {
-  width: 200px;
+  width: 10%;
   outline: none;
   border: none;
   color: aliceblue;
@@ -45,7 +45,7 @@ li {
 .form {
   margin: 0 auto;
   margin-top: 150px;
-  width: 600px;
+  width: 60%;
   background-color: #fff;
   padding: 20px;
   border: 1px solid silver;
